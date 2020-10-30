@@ -1,0 +1,88 @@
+*{margin: 0; padding: 0; box-sizing: 0; border-box: 0;} /*zerando as configurações*/
+@charset "UTF-8";
+
+
+body {
+    @import url(https://fonts.google.com/specimen/Roboto);
+    font-family: 'Roboto';
+    background-color: #12547a;
+}
+
+table{
+    color: #ffffff;
+}
+table tr td h1{
+    margin-top: 50px;
+}
+
+
+
+#logoh{
+    text-align: left;
+    margin-top: 50px;
+}
+
+main{
+    margin-left: 0px;
+}
+
+main ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    opacity: 55%;
+    transition: all .2s ease-in-out;
+}
+
+main li:hover{
+    opacity: 100%;
+}
+
+#cv{
+    padding: 35px;
+    text-align: center;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    color: white;
+    opacity: 100%;
+}
+
+#behance{
+    padding: 35px;
+    text-align: center;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    color: white;
+}
+#hoffer{
+    padding: 35px;
+    text-align: center;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    color: white;
+}
+
+#linkedin{
+    padding: 35px;
+    text-align: center;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    color: white;
+}
+
+#drive{
+    padding: 35px;
+    text-align: center;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    color: white;
+}
+#notion{
+    padding: 35px;
+    text-align: center;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    color: white;
+}
